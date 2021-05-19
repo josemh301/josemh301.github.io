@@ -11,13 +11,15 @@ author:
 
 ## Primer trimestre
 ### Descripción
-**"De mayor quiero ser actor"**, así vamos a llamar al primer proyecto del curso. Para este trabajo vais a grabar un anuncio. Debéis recordar que la publicidad es un tipo de texto argumentativo, así que eso vamos a hacer, vamos a tratar de hacer un anuncio. Para rizar un poco más el rizo, el anuncio deberá ser mudo, únicamente se podrá escuchar música de fondo. En definitiva, debéis dar rienda suelta a la imaginación, pasar un buen rato viendo anuncios de colonias, pizzas, móviles en YouTube y elaborar vuestro propio anuncio con la ayuda de un cámara. 
+**"De mayor quiero ser actor"**, así vamos a llamar al primer proyecto del curso. Para este trabajo vais a grabar un anuncio. Debéis recordar que la publicidad es un tipo de texto argumentativo, así que eso vamos a hacer, vamos a tratar de hacer un anuncio. Para rizar un poco más el rizo, el anuncio deberá ser **mudo**, únicamente se podrá escuchar música de fondo. En definitiva, debéis dar rienda suelta a vuestra imaginación, pasar un buen rato viendo anuncios de colonias, pizzas y móviles en YouTube para luego elaborar vuestro propio anuncio con la ayuda de un amable cámara. 
 
 ### Requisitos
 1. Buscar algo que anunciar
 2. Presentar el guion al profesor para que dé el visto bueno
 3. Tiempo: **20 a 30 segundos**
 4. Evitad marcas de agua siempre que sea posible
+5. **Mudo**
+6. Entrega: **video privado** con enlace en el **correo del profesor**.
 
 
 ### Pasos que seguir y consejos
@@ -29,17 +31,23 @@ author:
 6. Sed originales y no tengáis vergüenza, no lo va a ver nadie más
 
 ### Evaluación
-En este trabajo se valorará la falta de timidez y vergüenza. Asimismo, se tendrá en cuenta la originalidad y cómo de profesional parezca. Es muy importante no pasarse del tiempo, y que sea **mudo**, con solo música de fondo.
+En este trabajo se valorará la falta de timidez y la desenvoltura ante cámara. Asimismo, se tendrá en cuenta la originalidad y cómo de profesional parezca. Es muy importante no pasarse del tiempo, y repetimos, que sea **mudo**.
+
+
+
+
 
 ## Segundo trimestre
 ### Descripción
-A este trabajo lo llamaremos "El dramaturgo". Para la realización de este trabajo nos basaremos en la primera obra teatral de Federico García Lorca, _El maleficio de la mariposa_. El alumno deberá elaborar una obra de teatro en la que los personajes sean animales. Deberás meterte en el papel de un dramaturgo imaginativo y entusiasmado.
+A este trabajo lo llamaremos **"El dramaturgo"**. Para la realización de este trabajo nos basaremos en la primera obra teatral de Federico García Lorca, _El maleficio de la mariposa_. El alumno deberá elaborar una obra de teatro en la que los personajes sean animales. Deberás meterte en el papel de un dramaturgo imaginativo y entusiasmado por su primera obra. 
+
 ### Requisitos
+
 1. La extensión de la obra no deberá ser superior a las **seis carillas**.
 2. La obra deberá tener un inicio y una conclusión clara
 3. Deberás especificar al inicio el _dramatis persona_.
 4. No olvides incluir todas las partes de las que se compone una obra teatral (acotaciones, apartes, diálogos...)
-5. La entrega se realizará **a mano**, porque todo lo que tenga que ver con la presentación (márgenes, caligrafía, faltas de ortografía...) será altamente tenido en cuenta.
+5. La entrega se realizará **a mano**, porque lo que todo lo que tenga que ver con la presentación (márgenes, caligrafía, faltas de ortografía...) será altamente tenido en cuenta.
 
 
 ### Pasos que seguir y consejos
@@ -58,13 +66,13 @@ _El maleficio de la mariposa_ debe ser vuestra obra de referencia, pero si neces
 
 ## Tercer trimestre
 ### Descripción
-Para la realización del trabajo del tercer trimestre, nos basaremos en la teoría explicada sobre los textos periodísticos. El alumno se va a convertir en un perspicaz periodista que elaborará dos textos periodísticos de distinta índole. Para la realización de esta tarea, se deberá elegir un **tema de actualidad**. Basándose en un **mismo tema de actualidad** el alumno elaborará una **noticia** y un **artículo de opinión**. Ambos deberán ser redactados a mano, cuidando márgenes, caligrafía, falta de ortografía...
+Para la realización del trabajo **"Esto pasó y así lo cuento yo"** del tercer trimestre, nos basaremos en la teoría explicada sobre los textos periodísticos. El alumno se va a convertir en un perspicaz periodista que elaborará dos textos periodísticos de distinta índole. Para la realización de esta tarea, se deberá elegir un **tema de actualidad**. Basándose en un **mismo tema de actualidad** el alumno elaborará una **noticia** y un **artículo de opinión**. Ambos deberán ser redactados a mano, cuidando márgenes, caligrafía, falta de ortografía...
 
 #### Noticia
-La noticia tendrá una extensi´pn de entre **150 y 200 palabras**. El alumno debe ceñirse a las características de la noticia, presentes en la teoría del curso (enfoque, estructura...). No deberá ocupar mas de una carilla, sea apaisado o en vertical, por lo que elegir bien el tamaño de las fotos que acompañen la noticia será clave. 
+  La noticia tendrá una extensión de entre **150 y 200 palabras**. El alumno debe ceñirse a las características de la noticia, presentes en la teoría del curso (enfoque, estructura...). No deberá ocupar mas de una carilla, sea apaisado o en vertical, por lo que elegir bien el tamaño de las fotos que acompañen la noticia será clave. 
 
 #### Artículo de opinión
-Basándose, repetimos, **en el mismo tema que la noticia anterior**, el alumno redactará un **artículo de opinión** de entre **350 y 400 palabras**, que no exceda las dos carillas, sea de nuevo en apaisado o en vertical. Del mismo modo, el alumno debe seguir un enfoque subjetivo, emplear lenguaje valorativo y cumplir con el resto de rasgos propios de este tipo de textos periodísticos. 
+  Basándose, repetimos, **en el mismo tema que la noticia anterior**, el alumno redactará un **artículo de opinión** de entre **350 y 400 palabras**, que no exceda las dos carillas, sea de nuevo en apaisado o en vertical. Del mismo modo, el alumno debe seguir un enfoque subjetivo, emplear lenguaje valorativo y cumplir con el resto de rasgos propios de este tipo de textos periodísticos. 
 
 ### Pasos que seguir y consejos
 
