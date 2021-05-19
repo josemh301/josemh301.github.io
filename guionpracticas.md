@@ -1,7 +1,9 @@
 ---
 title: 'Guía de prácticas para 2 ESO'
+date: '14 de mayo de 2021'
 author:
-- 'Jose María Hernández de la Cruz'
+- Fulanito Gómez
+- Menganito
 ---
 
 Guía de prácticas para 2 ESO
