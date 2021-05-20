@@ -205,9 +205,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   word-wrap: normal; }
 
 .reveal table {
-  margin: auto;
-  border-collapse: collapse;
-  border-spacing: 0; }
+   margin: auto;
+   border-collapse: collapse;
+   font-size: 0.35em;
+   border-spacing: 0; 
+   width: 85%;}
+
 
 .reveal table th {
   font-weight: bold; }
