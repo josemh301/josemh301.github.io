@@ -3848,6 +3848,15 @@ textarea.form-control-lg {
   list-style: none;
 }
 
+
+.navbar a:hover, .navbar .active, .navbar li:hover > a {
+  color: #a2cce3;
+}
+
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #68A4C4;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
