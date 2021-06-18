@@ -76,9 +76,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
 }
 
 h1, .h1 {
@@ -132,8 +130,8 @@ p {
 
 abbr[title],
 abbr[data-bs-original-title] {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  -webkit-text-decoration: none;
+          text-decoration: none;
   cursor: help;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
@@ -208,8 +206,8 @@ sup {
 }
 
 a {
-  color: #ffc800;
-  text-decoration: underline;
+  color: #4fa6d5;
+  text-decoration: none;
 }
 a:hover {
   color: #cca000;
@@ -3390,13 +3388,15 @@ textarea.form-control-lg {
 .btn-link {
   font-weight: 400;
   color: #ffc800;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:hover {
   color: #cca000;
+  text-decoration: none;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
+  text-decoration: none;
 }
 
 .btn-lg, .btn-group-lg > .btn {
