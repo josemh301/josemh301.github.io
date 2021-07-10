@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -51,9 +51,14 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="active" href="index.html">Inicio</a></li>
-          <li><a href="team.html">Equipo</a></li>
+          <li><a class="" href="partes.html">Partes</a></li>
           <li><a href="about.html">Cronograma</a></li>
-          <li><a href="portfolio.html">Código</a></li>
+          <li class="dropdown"><a href="codigo.html"><span>Código</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="ejemplos.html">Ejemplos</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html">Equipo</a></li>
         </ul>
           
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -69,18 +74,17 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>exTRAE</span></h2>
+          <h2 class="animate__animated animate__fadeInDown">Bienvenidos a <span>exTRAE</span></h2>
           <p class="animate__animated animate__fadeInUp">Un Trabajo de Fin de Máster realizado por José María Hernández de la Cruz y Bárbara Saiz Escobar en colaboración con la Univeridad Complutense de Madrid, Telefónica y la Real Academia de la Lengua Española.</p>
-          <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" class="btn-get-started animate__animated animate__fadeInUp">Lee la memoria</a>
+          <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" class="btn-get-started animate__animated animate__fadeInUp" target="_blank">Lee la memoria</a>
         </div>
       </div>
 
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Trabajo de Fin de Máster</h2>
-          <p class="animate__animated animate__fadeInUp">«exTRAE: Clasificación de tuits dirigidos a la RAE mediante las herramientas de modelado de tópicos LSA y LDA»</p>
-          <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" class="btn-get-started animate__animated animate__fadeInUp">Lee la memoria</a>
+          <h2 class="animate__animated animate__fadeInDown">exTRAE: Clasificación de tuits dirigidos a la RAE mediante las herramientas de modelado de tópicos LSA y LDA</h2>
+          <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" class="btn-get-started animate__animated animate__fadeInUp" target="_blank">Lee la memoria</a>
         </div>
       </div>
 
@@ -100,37 +104,36 @@
     <!-- ======= Services Section ======= -->
     <section class="services">
       <div class="container">
-
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bx-laptop"></i></div>
               <h4 class="title"><a href="">Proyecto</a></h4>
-              <p class="description">Nuestro Trabajo de Fin de Máster se enmarca dentro del proyecto LEIA RAE-Telefónica en el que participamos colaborando como alumnos del Máster en Letras Digitales de la Universidad Complutense de Madrid.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-code"></i></div>
-              <h4 class="title"><a href="">LDA y LSA</a></h4>
-              <p class="description">Para la realización de nuestro proyecto nos hemos basado en dos métodos de análisis de textos: <b>LDA</b> y <b>LSA</b>.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bxs-file-pdf"></i></div>
-              <h4 class="title"><a href="">Memoria</a></h4>
-              <p class="description">Realizada con LateX. Nuestra memoria recoge todo lo relativo a nuestro proyecto.</p>
+              <p class="description">Nuestro Trabajo de Fin de Máster se enmarca dentro del proyecto LEIA de Telefónica y la Real Academia Española en el que participamos colaborando como alumnos del Máster en Letras Digitales de la Universidad Complutense de Madrid</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Bibliografía</a></h4>
-              <p class="description">Las fuentes del marco teórico de nuestro trabajo han sido extensas y multidiciplinares.</p>
+              <div class="icon"><i class="bx bxs-bank"></i></div>
+              <h4 class="title">Instituciones</h4>
+              <p class="description">Las instituciones buscan adaptarse al medio digital. Poseer herramientas para el manejo del <i>big data</i> resulta crucial</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><a href="codigo.html"><i class="bx bx-code"></i></a></div>
+              <h4 class="title"><a href="codigo.html"><i>Topic modeling</i></a></h4>
+              <p class="description">El procesado del lenguaje natural ofrece distintas técnicas para la clasificación automática de corpus de gran tamaño, uno de ellos es <i>topic modeling</i>, que a su vez cuenta con distintos modelos</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" target="_blank"><i class="bx bxs-file-pdf"></i></a></div>
+              <h4 class="title"><a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" target="_blank">Memoria</a></h4>
+              <p class="description">Realizada con LateX en el entorno Overleaf, nuestra memoria recoge todos los aspectos de nuestro proyecto</p>
             </div>
           </div>
 
@@ -139,35 +142,6 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 video-box">
-            <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div>
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
-
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-toggle-left"></i></div>
-              <h4 class="title"><a href="">LDA</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-toggle-right"></i></div>
-              <h4 class="title"><a href="">LSA</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
 
     <!-- ======= Features Section ======= -->
     <section class="features">
@@ -196,7 +170,7 @@
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-2.svg" class="img-fluid" alt="">
+            <img src="assets/img/features-3.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
             <h3>Objetivos de corte teórico</h3>
@@ -216,7 +190,7 @@
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets/img/features-3.svg" class="img-fluid" alt="">
+            <img src="assets/img/features-2.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5">
             <h3>Objetivo de ejecución práctica</h3>
@@ -225,8 +199,8 @@
               Realizamos el estudio que se precisaba sobre <i>topic modeling</i> y los dos algoritmos seleccionados:
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Usamos LSA</li>
-              <li><i class="bi bi-check"></i> Usamos LDA</li>
+              <li><i class="bi bi-check"></i><a href="lsa.html"> Usamos LSA</a></li>
+              <li><i class="bi bi-check"></i><a href="lsa.html"> Usamos LDA</a></li>
             </ul>
           </div>
         </div>
@@ -236,7 +210,7 @@
             <img src="assets/img/features-4.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Cuestiones planteadas</h3>
+            <h3>Cuestiones base</h3>
             <ul>
               <li><i class="bi bi-check"></i>  ¿Cuáles son las dudas más frecuentes?</li>
               <li><i class="bi bi-check"></i>  ¿Es posible agrupar las dudas de alguna manera para ofrecer respuestas automáticas?</li>
@@ -245,13 +219,28 @@
         </div>
 
       </div>
+
     </section><!-- End Features Section -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
+ <!-- ======= Footer ======= -->
   <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-md-3 col-sm-6 my-3">
+                    </div>
 
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://www.rae.es/"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/raetrans.png" alt="..." /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://www.telefonica.com/es/home"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/teltrans.png" alt="..." /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -266,20 +255,12 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Contacto</h4>
-            <p>
-              <strong>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-              </svg>
-              </strong>
-              <ul>
-                <li><a href="mailto:josemh08@ucm.es">Jose María Hernández de la Cruz</a></li>
-               <li><a href="mailto:bsaiz01@ucm.es">Bárbara Saiz Escobar</a></li>
-              </ul>
-            </p>
-
+            <ul>
+              <li><i class="bx bx-envelope"></i> <a href="mailto:josemh301@gmail.com">  Jose María Hernández de la Cruz</a></li>
+              <li><i class="bx bx-envelope"></i> <a href="mailto:bsaiz01@ucm.es">  Bárbara Saiz Escobar</a></li>
+            </ul>
           </div>
 
       </div>
@@ -294,7 +275,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        Designed by <a href="https://bootstrapmade.com/">Jose María Hernández & Bárbara Saiz Escobar</a>
+        Designed by <a href="https://www.linkedin.com/in/josemariahernandezdelacruz/">Jose María Hernández de la Cruz</a> & <a href="https://bootstrapmade.com/">Bárbara Saiz Escobar</a>
       </div>
     </div>
   </footer><!-- End Footer -->
