@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+<<<<<<< HEAD
+  <title>exTRAE: Código: gráficos</title>
+=======
   <title>exTRAE</title>
+>>>>>>> 88de47dbdfec50e398061434d9e9da3b4901c0fe
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -78,9 +82,10 @@
 
         <div class="d-flex justify-content-between align-items-center">
           <h2>Código</h2>
+
           <ol>
             <li><a href="index.html">Inicio</a></li>
-            <li>Código</li>
+            <li><a href="codigo.html">Código</a>: Gráficos</li>
           </ol>
         </div>
 
@@ -94,7 +99,6 @@
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todo</li>
               <li data-filter=".filter-app">LSA</li>
               <li data-filter=".filter-card">LDA</li>
             </ul>
@@ -102,83 +106,89 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
+<!--LSA Colab-->
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Google Colab LSA</h3>
+                <h3>LSA</h3>
                 <div>
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="https://colab.research.google.com/drive/1ErHAYVuxMBWM60h2uFeM7sHRJubHjNFd#scrollTo=znAuH0tPbrOR" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
+            El código completo de LSA está disponible en Google Colab, al que se puede acceder desde el enlace de la imagen.<hr>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Gráfico I LSA</h3>
+                <h3>Nube de palabras<br>LSA</h3>
                 <div>
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
+            La nube muestra cuales son las palabras más relevantes para la generación del modelo. A mayor tamaño, mayor peso tienen en el modelado de tópicos.<hr>
           </div>
 
            <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Gráfico II LSA</h3>
+                <h3>Predicción de tópicos<br>LSA</h3>
                 <div>
-                  <a href="assets/img/portfolio/portfolio-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" target="_blank"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>              
+            </div>
+            Aunque el número de tópicos es un parámetro que el investigador debe decidir, LSA ofrece una estimación. Lo muestra a través de una gráfica.<hr>
+          </div>
+
+
+
+
+
+
+          <!--LDA-->
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3>LDA</h3>
+                <div>
+                  <a href="https://colab.research.google.com/drive/1RvsB1YoX36NLR52h1JkImu_3_J9jmAdt?usp=sharing" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
+            El código completo de LDA está disponible en Google Colab, al que se puede acceder desde el enlace de la imagen.<hr>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/4.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Google Colab LDA</h3>
+                <h3>Visulización de resultados<br>LDA</h3>
                 <div>
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="visualizacion.html" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
+            LDA genera un documento HTML en el que poder visualizar los datos de manera sencilla a través de burbujas y gráficos de barras. Ver <a href="visualizacion.html">Visualización</a>. <hr>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/5.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Gráfico I LDA</h3>
+                <h3>Coherencia<br>LDA</h3>
                 <div>
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="visualizacion.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="https://drive.google.com/file/d/1x_GXc4ui434QQCFUMxQL9dUUU3t6by3d/view?usp=sharing" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Gráfico II LDA</h3>
-                <div>
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
+            El método LDA contiene, al igual que los otros modelados de tópicos, gráficas para la visualización de la coherencia de los tópicos.<hr>
           </div>
 
         </div>
@@ -228,7 +238,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        Designed by <a href="https://bootstrapmade.com/">Jose María Hernández & Bárbara Saiz Escobar</a>
+        Designed by <a href="https://www.linkedin.com/in/josemariahernandezdelacruz/">Jose María Hernández de la Cruz</a> & <a href="mailto:bsaiz01@ucm.es">Bárbara Saiz Escobar</a>
       </div>
     </div>
   </footer><!-- End Footer -->
