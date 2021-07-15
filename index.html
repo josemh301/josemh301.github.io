@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    	<meta charset="utf-8">
+    	<title>exTRAE: Presentación TFM</title>
+		<link rel="stylesheet" href="dist/reset.css">
+        <link rel="stylesheet" href="dist/reveal.css">
+        <link rel="stylesheet" href="dist/theme/tfm.css">
+
+        <script src="js/menu.js"></script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section> <!--Portada-->
+                    <h6>Trabajo de fin de máster</h6>
+					<h5><font color="#ff914d">exTRAE: Clasificación de tuit dirigidos a la RAE mediante las herramientas de modelado de tópicos LSA y LDA</font></h5>
+                        <hr>
+      					<h6>Jose María Hernández de la Cruz<br>Bárbara Saiz Escobar</h6>
+                        <a href="https://josemh301.github.io/extrae/index.html" target="_blank"><img data-src="images/extrae.png" width="30%" height="30%"></a>
+      					<a href="https://rae.es" target="_blank"><img data-src="images/raetrans.png" width="30%" height="30%"></a>
+
+                        <a href="https://www.telefonica.com/es/home" target="_blank"><img data-src="images/teltrans.png" width="30%" height="30%"></a>
+				</section>
+
+				<section><!--Índice-->
+					<h3>Índice</h3>
+					<ol>
+					 	<li><a href="#intro">Introducción</a></li>
+					 	<li><a href="#edc">Estado de la cuestión</li>
+                        <li><a href="#nuestra">Nuestra contribución: LSA y LDA</a></li>
+                        <li><a href="#resultados">Resultados</a></li>
+                        <li><a href="#conclusion">Conclusiones</a></li>                       
+					</ol>
+				</section>
+
+				<section id="intro"><!--Introducción--> 
+
+                        <section> 
+                            <h3>Introducción</h3>
+                            <p>Objetivo: responder a dos preguntas fundamentales:</p>
+                            <ul>
+                                <li>¿Cuáles son los temas más frecuentes entre los tuits que plantean dudas a la RAE?</li>
+                                <li>¿Es posible clasificar estas dudas con el objetivo de ofrecer una respuesta automática?</li>
+                            </ul>
+                        </section>
+                </section>
+
+                <section id="edc"><!--Estado de la cuestión--> 
+
+                        <section> <!--Estado de la cuestión 1-->
+                            <h3>Estado de la cuestión</h3>
+                            <p>Instituciones:</p>
+                            <ul>
+                                <li>Comunicación institucional</li>
+                                <li>Real Academia Española</li>
+                                <li>RAE en Twitter</li>
+                                <li>Twitter</li>
+                            </ul>
+                        </section>
+
+                         <section> <!--Estado de la cuestión 2-->
+                            <h3>Estado de la cuestión II</h3>
+                            <p>Procesos informáticos:</p>
+                            <ul>
+                                <li><i>Topic modeling</i>: LSA</li>
+                                <li><i>Topic modeling</i>: LDA</li>
+                            </ul>
+                        </section>
+                </section>
+
+
+                                
+
+                <section id="nuestra"><!--Nuestra contribución--> 
+
+                    <section data-transition="slide-in fade-out">
+                        <h3>Latent Semantic Allocation</h3>
+                    </section>
+
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>¿Qué hace LSA?</h4>
+                        <ul>
+                            <li>Presupone que la palabras en una misma posición en distintos documentos tienen significados similares</li>
+                            <li>Aplica la Singular Value Decomposition</li>
+                        </ul>
+                    </section>
+
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>Predicción del número de tópicos</h4>
+                        <img src="images/1.png" width="85%" height="85%">
+                    </section>
+
+
+
+                    <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+Número de tópicos según LSA
+
+| Tópico 0 |           |   | Tópico 1 |            |   | Tópico 2 |             |
+|:--------:|:---------:|:-:|:--------:|:----------:|:-:|:--------:|:-----------:|
+|   0.725  |    Coma   |   | -0.945   | COVID      |   |   0.838  | Verbo       |
+|   0.297  |   Punto   |   | 0.173    | Coma       |   |  -0.318  | Coma        |
+|   0.255  |   Verbo   |   | 0.153    | Expresión  |   |  -0.217  | COVID       |
+|   0.213  |  Oración  |   | -0.113   | Virus      |   |   0.186  | Expresión   |
+|   0.212  |  Después  |   | 0.110    | Verbo      |   |   0.118  | Conjugación |
+|   0.174  | Mayúscula |   | 0.060    | Punto      |   |  -0.117  | Punto       |
+|   0.159  | Expresión |   | -0.051   | Enfermedad |   |   0.084  | Oración     |
+|   0.131  |   Puntos  |   | -0.044   | Masculino  |   |  -0.075  | Después     |
+|   0.141  |    Tras   |   | -0.037   | Femenino   |   |  -0.073  | Singular    |
+|   0.104  |   Nombre  |   | -0.037   | Medios     |   |  -0.070  | Pasado      |
+                    </textarea>
+                  </section>
+
+                 <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+
+| Tópico 3 |           |   | Tópico 4 |            |   | Tópico 5 |           |
+|:--------:|:---------:|:-:|:--------:|:----------:|:-:|:--------:|:---------:|
+|   0.835  | Expresión |   |   0.685  |  Mayúscula |   |   0.797  |  Oración  |
+|  -0.327  |   Verbo   |   |  -0.405  |  Expresión |   |   0.385  |   Tilde   |
+|   0.230  | Mayúscula |   |  -0.307  |  Minúscula |   |  -0.233  | Mayúscula |
+|  -0.209  |    Coma   |   |  -0.273  |    Coma    |   |  -0.190  |    Coma   |
+|  -0.160  |   COVID   |   |   0.199  |   Nombre   |   |  -0.172  |   Verbo   |
+|   0.110  | Minúscula |   |   0.158  |   Inicial  |   |  -0.121  | Expresión |
+|   0.096  |   Tilde   |   |   0.102  |  Escriben  |   |  -0.115  | Minúscula |
+|   0.064  |   Nombre  |   |   0.094  |   Puntos   |   |   0.070  |   Punto   |
+|   0.053  |  Siempre  |   |   0.090  |   Nombres  |   |   0.066  |   Plural  |
+|   0.049  |  Inicial  |   |   0.087  | Escribirse |   |   0.058  |   Final   |
+                    </textarea>
+                  </section>
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>Tópicos</h4>
+                        <ol>
+                            <li>Tópico 0</li>
+                            <li>Tópico 1</li>
+                            <li>Tópico 2</li>
+                            <li>Tópico 3</li>
+                            <li>Tópico 4</li>
+                            <li>Tópico 5</li>
+                        </ol>
+                    </section>
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>Nube de palabras</h4>
+                        <img src="images/2.png" width="85%" height="85%">
+                    </section>
+
+                    <section data-transition="slide-in fade-out">
+                        <h3>Latent Dirichlet Allocation</h3>
+                    </section>
+
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>¿Qué hace LDA?</h4>
+                        <ul>
+                            <li>Presupone que la palabras...</li>
+                            <li>Aplica la...</li>
+                        </ul>
+                    </section>
+
+
+
+                    <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+
+                        <textarea data-template>
+Número de tópicos según LDA
+
+| Bárbara  |           |   | Bárbara  |            |   | Bárbara  |             | Bárbara  |             |
+|:--------:|:---------:|:-:|:--------:|:----------:|:-:|:--------:|:-----------:|:--------:|:-----------:|
+|   0.725  |    Coma   |   | -0.945   | COVID      |   |   0.838  | Verbo       |   0.838  | Verbo       |
+|   0.297  |   Punto   |   | 0.173    | Coma       |   |  -0.318  | Coma        |   0.838  | Verbo       |
+|   0.255  |   Verbo   |   | 0.153    | Expresión  |   |  -0.217  | COVID       |   0.838  | Verbo       |
+|   0.213  |  Oración  |   | -0.113   | Virus      |   |   0.186  | Expresión   |   0.838  | Verbo       |
+|   0.212  |  Después  |   | 0.110    | Verbo      |   |   0.118  | Conjugación |   0.838  | Verbo       |
+|   0.174  | Mayúscula |   | 0.060    | Punto      |   |  -0.117  | Punto       |   0.838  | Verbo       |
+|   0.159  | Expresión |   | -0.051   | Enfermedad |   |   0.084  | Oración     |   0.838  | Verbo       |
+|   0.131  |   Puntos  |   | -0.044   | Masculino  |   |  -0.075  | Después     |   0.838  | Verbo       |
+|   0.141  |    Tras   |   | -0.037   | Femenino   |   |  -0.073  | Singular    |   0.838  | Verbo       |
+|   0.104  |   Nombre  |   | -0.037   | Medios     |   |  -0.070  | Pasado      |   0.838  | Verbo       |
+                    </textarea>
+                  </section>
+
+                 <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+
+| Bárbara  |           |   | Bárbara  |            |   | Bárbara  |             |
+|:--------:|:---------:|:-:|:--------:|:----------:|:-:|:--------:|:-----------:|
+|   0.725  |    Coma   |   | -0.945   | COVID      |   |   0.838  | Verbo       |
+|   0.297  |   Punto   |   | 0.173    | Coma       |   |  -0.318  | Coma        |
+|   0.255  |   Verbo   |   | 0.153    | Expresión  |   |  -0.217  | COVID       |
+|   0.213  |  Oración  |   | -0.113   | Virus      |   |   0.186  | Expresión   |
+|   0.212  |  Después  |   | 0.110    | Verbo      |   |   0.118  | Conjugación |
+|   0.174  | Mayúscula |   | 0.060    | Punto      |   |  -0.117  | Punto       |
+|   0.159  | Expresión |   | -0.051   | Enfermedad |   |   0.084  | Oración     |
+|   0.131  |   Puntos  |   | -0.044   | Masculino  |   |  -0.075  | Después     |
+|   0.141  |    Tras   |   | -0.037   | Femenino   |   |  -0.073  | Singular    |
+|   0.104  |   Nombre  |   | -0.037   | Medios     |   |  -0.070  | Pasado      |
+                    </textarea>
+                  </section>
+                                      <section> <!--Nuestra contribución 2-->
+                        <h4>Tópicos</h4>
+                        <ol>
+                            <li>Tópico 0</li>
+                            <li>Tópico 1</li>
+                            <li>Tópico 2</li>
+                            <li>Tópico 3</li>
+                            <li>Tópico 4</li>
+                            <li>Tópico 5</li>
+                            <li>Tópico 6</li>
+                        </ol>
+                    </section>
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>Visualizacíon de resultados</h4>
+                        <iframe src="https://josemh301.github.io/extrae/visualizacion.html" width="280%" height="720px"  style="background-color:#CBEFEE;"></iframe>
+                    </section>
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>Coherencia</h4>
+                        <img src="images/5.png" width="85%" height="85%">
+                    </section>
+                </section>
+
+                <section id="resultados"><!--Funciones del lenguaje-->
+                	<section data-transition="slide-in fade-out">
+                		<h3>Resultados</h3>
+                	</section>
+                 <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+Equivalencia de tópicos
+
+|    LSA   |           LDA           |
+|:--------:|:-----------------------:|
+| Tópico 0 |    Tópico 1 y Tópico 3    |
+| Tópico 1 |         Tópico 4        |
+| Tópico 2 |    Tópico 2 y Tópico 5    |
+| Tópico 3 | Tópico 4 (parcialmente) |
+| Tópico 4 |         Tópico 0        |
+| Tópico 5 |         Tópico 5        |
+                    </textarea>
+                  </section>
+                    <section> <!--Nuestra contribución 2-->
+                        <h4>Ejemplo 1</h4>
+                        <div style="text-align: center">
+                        <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/RAEconsultas?src=hash&amp;ref_src=twsrc%5Etfw">#RAEconsultas</a> <a href="https://twitter.com/hashtag/dudaRAE?src=hash&amp;ref_src=twsrc%5Etfw">#dudaRAE</a> En la frase &quot;La tortilla, con cebolla está más rica&quot;, ¿puede ir esa coma tras el sujeto?, ¿sería una posible excepción de la &quot;coma criminal&quot;? Porque hay un matiz de diferencia con &quot;La tortilla con cebolla está más rica&quot;. ¿Cómo lo marco si no es con la coma?</p>&mdash; Somos La Ballena (@SomosLaBallena) <a href="https://twitter.com/SomosLaBallena/status/1223321001867522050?ref_src=twsrc%5Etfw">January 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></iframe>
+                </section>
+
+                <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+Clasificación del ejemplo 1 según LSA
+
+**`[(0, -0.20980927229940785),`** 
+
+`(1, -0.058112608011616315),`  
+`(2, 0.1648455875562258),`  
+`(3, -0.18909357407702648),`  
+`(4, -0.1693496918921315),`  
+`(5, -0.1222575962586621)]`  
+                    </textarea>
+                </section>
+                <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+Clasificación del ejemplo 1 según LDA
+
+`[(0, -0.20980927229940785),`  
+`(1, -0.058112608011616315),`  
+`(2, 0.1648455875562258),`  
+`(3, -0.18909357407702648),`  
+`(4, -0.1693496918921315),`  
+`(5, -0.1222575962586621)]`  
+                    </textarea>
+                </section>
+                <section> <!--Nuestra contribución 2-->
+                        <h4>Ejemplo 2</h4>
+                        <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/raeconsultas?src=hash&amp;ref_src=twsrc%5Etfw">#raeconsultas</a> <a href="https://twitter.com/hashtag/dudaRAE?src=hash&amp;ref_src=twsrc%5Etfw">#dudaRAE</a> <a href="https://twitter.com/RAEinforma?ref_src=twsrc%5Etfw">@RAEinforma</a> Una pregunta, en la frase &#39;No importa cuanta cantidad de patata echemos, siempre y cuando no sea ninguna&#39;, cuál es el significado. Siempre y cuando sea alguna, o siempre y cuando sea ninguna.</p>&mdash; Tite05 (@Tite05YT) <a href="https://twitter.com/Tite05YT/status/1344777501487333376?ref_src=twsrc%5Etfw">December 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </section>
+                                <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+Clasificación del ejemplo 2 según LSA
+
+`[(0, 0.0036254605539382295),` 
+
+`(1, -0.0016099528011234803),` 
+
+`(2, 0.0014768018627554715),`
+
+`(3, 0.002647918412362206),`  
+
+`(4, -0.004209751542360152),`  
+
+**`(5, 0.010708726262107343)]`**     
+                    </textarea>
+                </section>
+                <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
+                        <textarea data-template>
+Clasificación del ejemplo 2 según LDA
+
+`[(0, -0.20980927229940785),`  
+`(1, -0.058112608011616315),`  
+`(2, 0.1648455875562258),`  
+`(3, -0.18909357407702648),`  
+`(4, -0.1693496918921315),`  
+`(5, -0.1222575962586621)]`  
+                    </textarea>
+                </section>
+            </div>
+        </section>
+
+            </div>
+        </div>
+
+               
+
+
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+	
+        <script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				transition: 'concave',
+				slideNumber: 'h/v',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMenu, RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+
+        </script>
+    </body>
+</html>
