@@ -38,11 +38,26 @@
 
                         <section> 
                             <h3>Introducción</h3>
-                            <p>Objetivo: responder a dos preguntas fundamentales:</p>
+                            <p><b>Objetivo</b>: responder a:</p>
                             <ul>
+                            	<li>¿Cuál es la situación de la instituciones en el mundo digital?</li>
                                 <li>¿Cuáles son los temas más frecuentes entre los tuits que plantean dudas a la RAE?</li>
                                 <li>¿Es posible clasificar estas dudas con el objetivo de ofrecer una respuesta automática?</li>
                             </ul>
+                        </section>
+
+                        <section> 
+                            <h3>Herramientas</h3>
+                            <ul>
+                            	<li>Citavi6</li>
+                                <li>Python en Google Colab y Jupyter</li>
+                                <li>LateX</li>
+                                <li>HTML y CSS</li>
+                            </ul>
+                        </section>
+                        <section> 
+                        	<h3>La web: exTRAE</h3>
+								<iframe src="https://josemh301.github.io/extrae/index.html" width="100%" height="500px"></iframe>
                         </section>
                 </section>
 
@@ -63,22 +78,15 @@
                             <h3>Estado de la cuestión II</h3>
                             <p>Procesos informáticos:</p>
                             <ul>
-                                <li><i>Topic modeling</i>: LSA</li>
-                                <li><i>Topic modeling</i>: LDA</li>
+                            	<li>Procesamiento del lenguaje natural</li>
+                            	<ol>
+                            		<li><i>Topic modeling</i>: LSA</li>
+                            		<li><i>Topic modeling</i>: LDA</li>
+                            	</ol></li>
                             </ul>
                         </section>
-                </section>
 
-
-                                
-
-                <section id="nuestra"><!--Nuestra contribución--> 
-
-                    <section data-transition="slide-in fade-out">
-                        <h3>Latent Semantic Allocation</h3>
-                    </section>
-
-                    <section> <!--Nuestra contribución 2-->
+                        <section> <!--Nuestra contribución 2-->
                         <h4>¿Qué hace LSA?</h4>
                         <ul>
                             <li>Presupone que la palabras en una misma posición en distintos documentos tienen significados similares</li>
@@ -87,16 +95,42 @@
                     </section>
 
                     <section> <!--Nuestra contribución 2-->
-                        <h4>Coherencia</h4>
-                        <img src="images/5.png" width="85%" height="85%">
+                        <h4>¿Qué hace LDA?</h4>
+                        <ul>
+                            Presupone que:
+                             <li>Cada tema es una mezcla de diferentes palabras</li>
+                             <li>Cada documento consta de una proporción diferente de temas</li>
+                            Aplica: 
+                             <li>Teorema de Bayes</li>
+                             <li>Distribuciones de Dirichlet</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4>Pasos de LDA simplificados:</h4>
+                        <ol>
+                            <li>Cada palabra en un tema: frecuencia de tema o frecuencia de palabra</li>
+                            <li>Frecuencias notables de ambas distribuciones --> probabilidades condicionales para cada uno de los temas</li>
+                        </ol>
+                        <p><b>Resultado = lista tópicos + relación de términos y pesos</b></p>
+                    </section>
+                </section>
+
+
+                                
+
+                <section id="nuestra"><!--Nuestra contribución--> 
+                    <section data-transition="slide-in fade-out">
+                        <h3>Nuestra contribución</h3>
+                    </section>
+                    <section data-transition="slide-in fade-out">
+                        <h3>Latent Semantic Allocation</h3>
                     </section>
 
                     <section> <!--Nuestra contribución 2-->
                         <h4>Predicción del número de tópicos</h4>
                         <img src="images/1.png" width="85%" height="85%">
                     </section>
-
-
 
                     <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
                         <textarea data-template>
@@ -156,26 +190,14 @@ Número de tópicos según LSA
                         <h3>Latent Dirichlet Allocation</h3>
                     </section>
 
-                    <section> <!--Nuestra contribución 2-->
-                        <h4>¿Qué hace LDA?</h4>
-                        <ul>
-                            Presupone que:
-                             <li>Cada tema es una mezcla de diferentes palabras</li>
-                             <li>Cada documento consta de una proporción diferente de temas</li>
-                            Aplica: 
-                             <li>Teorema de Bayes</li>
-                             <li>Distribuciones de Dirichlet</li>
-                        </ul>
-                    </section>
 
                     <section>
-                        <h4>Pasos de LDA simplificados:</h4>
-                        <ol>
-                            <li>Cada palabra en un tema: frecuencia de tema o frecuencia de palabra</li>
-                            <li>Frecuencias notables de ambas distribuciones --> probabilidades condicionales para cada uno de los temas</li>
-                        </ol>
-                        <p><b>Resultado = lista tópicos + relación de términos y pesos</b></p>
+                    	<h4>Predicción del número de tópicos</h4>
+                        <p>Decisión manual según <b>semillas</b>: lista de distribuciones de tópicos y términos obtenida por el algoritmo cuando su parámetro <em>random state</em> no está definido. 
+                        </p>
                     </section>
+
+
 
                     <section data-markdown data-transition="slide-in fade-out" id="objetivos"> 
                         <textarea data-template>
@@ -237,10 +259,7 @@ Número de tópicos según LDA
                         <img src="images/5.png" width="85%" height="85%">
                     </section>
 
-                    <section>
-                        <p>Decisión manual según <b>semillas</b>: lista de distribuciones de tópicos y términos obtenida por el algoritmo cuando su parámetro <em>random state</em> no está definido. 
-                        </p>
-                    </section>
+
                 </section>
 
                 <section id="resultados"><!--Funciones del lenguaje-->
